@@ -14,7 +14,7 @@ const config = {
       'babel-polyfill',
       'react',
       'react-dom',
-      'semantic-ui-react',
+      'react-bootstrap',
       // 'prop-types',
       // 'axios',
       // 'lodash.debounce',
