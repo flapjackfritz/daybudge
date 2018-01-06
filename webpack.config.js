@@ -8,14 +8,13 @@ const config = {
       path.resolve('./node_modules')
     ]
   },
-  // entry: ['babel-polyfill', 'renderers/dom.js'],
   entry: {
     vendor: [
       'babel-polyfill',
       'react',
       'react-dom',
       'react-bootstrap',
-      // 'lodash.debounce',
+      'lodash.union',
       // 'prop-types',
       // 'axios',
       // 'lodash.debounce',
