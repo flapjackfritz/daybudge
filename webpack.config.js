@@ -15,6 +15,7 @@ const config = {
       'react-dom',
       'react-bootstrap',
       'lodash.union',
+      'lodash.throttle',
       // 'prop-types',
       // 'axios',
       // 'lodash.debounce',
