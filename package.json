@@ -1,6 +1,8 @@
 {
   "scripts": {
-    "dev": "NODE_PATH=./lib pm2 start lib/server.js --watch --interpreter babel-node --name appDev",
+    "start": "NODE_PATH=./lib pm2 start lib/server.js --watch --interpreter babel-node --name appDev",
+    "stop": "pm2 kill",
+    "log": "pm2 log",
     "webpack": "webpack -wd"
   },
   "babel": {
