@@ -5,7 +5,8 @@
     "log": "pm2 log",
     "webpack": "webpack -wd",
     "build-webpack": "webpack -p",
-    "build-node": "babel lib -d build --copy-files"
+    "build-node": "babel lib -d build --copy-files",
+    "start-prod": "NODE_ENV=production NODE_PATH=./build pm2 start lib/server.js -i max --name appProd"
   },
   "babel": {
     "presets": [
