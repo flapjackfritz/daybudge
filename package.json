@@ -3,7 +3,9 @@
     "start": "NODE_PATH=./lib pm2 start lib/server.js --watch --interpreter babel-node --name appDev",
     "stop": "pm2 kill",
     "log": "pm2 log",
-    "webpack": "webpack -wd"
+    "webpack": "webpack -wd",
+    "build-webpack": "webpack -p",
+    "build-node": "babel lib -d build --copy-files"
   },
   "babel": {
     "presets": [
